@@ -12,9 +12,6 @@ const Service = () => {
 						<h1 className="mobile:text-2xl mobile:mb-5 tablet:text-3.5xl tablet:mb-5 normal:text-4xl normal:mb-7">
 							Hey {"I'm Hossein"}👋🏻
 						</h1>
-						{/* <h1 className="mobile:text-2xl tablet:text-2xl normal:text-4xl">
-							Mirzapur
-						</h1> */}
 
 						<p className="italic opacity-90 mb-12 leading-1 mobile:text-base tablet:text-base normal:text-xl">
 							Every great website requires professional developers behind it...

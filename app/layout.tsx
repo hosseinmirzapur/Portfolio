@@ -1,4 +1,6 @@
 import Header from "./components/common/header"
+import Scroll from "./components/common/scroll"
+
 import "./globals.css"
 
 export const metadata = {
@@ -16,6 +18,7 @@ export default function RootLayout({
 			<body className="scroll-smooth">
 				<Header />
 				{children}
+				<Scroll />
 			</body>
 		</html>
 	)

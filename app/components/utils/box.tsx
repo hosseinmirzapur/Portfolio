@@ -1,7 +1,7 @@
 "use client"
 
 import { Box } from "@/app/data/boxes"
-import { useState } from "react"
+import React, { useState } from "react"
 import { BiLibrary, BiServer } from "react-icons/bi"
 import { BsCodeSlash } from "react-icons/bs"
 
@@ -24,7 +24,7 @@ const Box = ({
 				onMouseLeave={toggleHover}>
 				<div className="text">
 					<h1
-						className={`text-3xl ease-in duration-300 italic${
+						className={`text-3xl ease-in duration-300 italic ${
 							boxHovered ? "text-green" : ""
 						}`}>
 						{headline}
