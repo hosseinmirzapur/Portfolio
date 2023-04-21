@@ -7,7 +7,7 @@ import { AiOutlineGithub, AiOutlineClose } from "react-icons/ai"
 import { FiMail } from "react-icons/fi"
 import { RxHamburgerMenu } from "react-icons/rx"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 enum ItemTypes {
 	services = "services",
@@ -318,5 +318,4 @@ const Header = () => {
 		</section>
 	)
 }
-
 export default Header
