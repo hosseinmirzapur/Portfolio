@@ -19,7 +19,7 @@ const Box = ({
 	return (
 		<>
 			<section
-				className="flex justify-between items-baseline cursor-pointer text-white mx-auto w-11/12 mobile:w-9/12 tablet:w-10/12 ease-in duration-300"
+				className="flex justify-between hover:shadow-3xl items-baseline cursor-pointer text-white mx-auto w-11/12 mobile:w-9/12 tablet:w-10/12 ease-in duration-300 bg-gray2 p-8 font-Roboto_mono"
 				onMouseEnter={toggleHover}
 				onMouseLeave={toggleHover}>
 				<div className="text">
@@ -29,7 +29,7 @@ const Box = ({
 						}`}>
 						{headline}
 					</h1>
-					<p className={`opacity-70 mt-2 mb-5 font-Roboto_mono`}>
+					<p className={`opacity-70 mt-2 mb-5 font-Roboto_mono pr-2`}>
 						{description}
 					</p>
 					<p className={`text-base ${boxHovered ? "animate-bounce" : ""}`}>
