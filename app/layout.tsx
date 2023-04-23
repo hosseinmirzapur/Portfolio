@@ -1,3 +1,4 @@
+import Footer from "./components/common/footer"
 import Header from "./components/common/header"
 import Scroll from "./components/common/scroll"
 
@@ -19,6 +20,7 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Scroll />
+				<Footer />
 			</body>
 		</html>
 	)

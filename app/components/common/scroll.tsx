@@ -6,7 +6,7 @@ const Scroll = () => {
 	return (
 		<ScrollToTop
 			smooth
-			className="flex justify-center items-center bg-indigo-900 shadow-3xl"
+			className="flex justify-center items-center bg-indigo-900 hover:shadow-5xl ease-in duration-300"
 			component={<BiArrowToTop className="text-2xl text-white" />}
 		/>
 	)
